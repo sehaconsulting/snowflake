@@ -1,2 +1,2 @@
 create or replace table airflowfile as
-select * from dbt.test.tabinc
+select *, 'ali did first run' as run_id from dbt.test.tabinc
